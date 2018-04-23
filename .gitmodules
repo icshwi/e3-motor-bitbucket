@@ -1,4 +1,4 @@
 [submodule "motor"]
 	path = motor
-	url = https://github.com/epics-modules/motor
+	url = https://github.com/EuropeanSpallationSource/motor.git
 	ignore = all
