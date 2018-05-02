@@ -1,7 +1,11 @@
-# what_ever_filename.p0.patch
+# fixed_wrong_nullify_char.p0.patch
 
-Generic Description.....
+gcc 7.3 doesn't allow to compile this code, this code already been patched in main motor master branch. But it doesn't in ESS motor branch, but in ESS motor master branch
+
 
 * created by Jeong Han Lee, han.lee@esss.se
 * related URL or reference https://github.com/icshwi
-* Tuesday, February 13 13:24:57 CET 2018
+** https://github.com/epics-modules/motor/blob/master/motorApp/MotorSrc/motordevCom.cc
+** https://github.com/EuropeanSpallationSource/motor.git
+
+* 2018 May 02
