@@ -16,8 +16,8 @@
 #
 # Author  : Jeong Han Lee
 # email   : han.lee@esss.se
-# Date    : Thursday, November 30 21:57:55 CET 2017
-# version : 0.0.1
+# Date    : Tuesday, May  8 15:08:36 CEST 2018
+# version : 0.0.2
 
 where_am_I := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 
@@ -73,14 +73,18 @@ HEADERS += $(MOTOR_SRC)/paramLib.h
 HEADERS += $(MOTOR_SRC)/asynMotorController.h
 HEADERS += $(MOTOR_SRC)/asynMotorAxis.h
 
+# ASYN
 SOURCES += $(MOTOR_SRC)/asynMotorAxis.cpp
 SOURCES += $(MOTOR_SRC)/asynMotorController.cpp
 SOURCES += $(MOTOR_SRC)/paramLib.c
 SOURCES += $(MOTOR_SRC)/devMotorAsyn.c
 SOURCES += $(MOTOR_SRC)/drvMotorAsyn.c
 
+
+# MOTOR
 SOURCES += $(MOTOR_SRC)/motorUtilAux.cc
 SOURCES += $(MOTOR_SRC)/motorUtil.cc
+SOURCES += $(MOTOR_SRC)/motorDevSup.c
 SOURCES += $(MOTOR_SRC)/motordrvCom.cc
 SOURCES += $(MOTOR_SRC)/motordevCom.cc
 
