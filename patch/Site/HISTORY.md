@@ -1,4 +1,4 @@
-# fixed_wrong_nullify_char.p0.patch
+# fixed_wrong_nullify_char.p0.patch (Removed)
 
 gcc 7.3 doesn't allow to compile this code, this code already been patched in main motor master branch. But it doesn't in ESS motor branch, but in ESS motor master branch
 
@@ -9,3 +9,7 @@ gcc 7.3 doesn't allow to compile this code, this code already been patched in ma
 ** https://github.com/EuropeanSpallationSource/motor.git
 
 * 2018 May 02
+* Removed, because the latest repo has the fixed version already.
+
+
+
